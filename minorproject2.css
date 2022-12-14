@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: left;
+}
+
+.resume {
+    border: 10px solid rgba(0, 0, 0, 0.9);
+    border-bottom: 10px solid gray;
+    font-weight: 600;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: 50%;
+}
+
+.heading {
+    /* margin-top: 3%;
+    margin-bottom: 3%;
+    border: dotted; */
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+}
+
+.name {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.profile_photo>img {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.quote>p {
+    text-decoration: solid;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2 {
+    background-color: gray;
+}
+
+li {
+    font-size: larger;
+}
+
+.Education>table {
+    font-size: larger;
+    border-top: 5px solid gray;
+    border-left: 5px solid gray;
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+}
+
+th,
+td {
+    border: 2px solid gray;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+.contact {
+    display: block;
+    color: blue;
+    margin-left: 10%;
+    background-color: rgb(182, 173, 173);
+    height: 100%;
+    margin-right: 10%;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.contact:hover>h1 {
+    background-color: aliceblue;
+    color: black;
+}
+
+.block {
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    display: none;
+    block-size: auto;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.contact:hover>.block {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aliceblue;
+    color: black;
+}
