@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = 'stylesheet' href="calculator.css">
+    </head>
+    <body>
+        <h1>
+            Casio
+        </h1>
+        <fieldset class="calc">
+            <input type="text" placeholder="Calculate" id="i" name="operation" size="6"/>
+            <input type="button" id='c' value="C" onclick="document.getElementById('i').value = ''"/>
+            <br/>
+            <table>
+                <tr>
+                    <td><input type="button" id='b' value="1" onclick="call('1')"/></td>
+                    <td><input type="button" id='b' value="2" onclick="call('2')"/></td>
+                    <td><input type="button" id='b' value="3" onclick="call('3')"/></td>
+                    <td><input type="button" id='l' value="/" onclick="call('/')"/></td>
+                </tr>
+                    
+                <tr>
+                    <td><input type="button"  id='b' value="4" onclick="call('4')"/></td>
+                    <td><input type="button" id='b' value="5" onclick="call('5')"/></td>
+                    <td><input type="button" id='b' value="6" onclick="call('6')"/></td>
+                    <td><input type="button" id='l' value="*" onclick="call('*')"/></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button"  id='b' value="7" onclick="call('7')"/></td>
+                    <td><input type="button" id='b' value="8" onclick="call('8')"/></td>
+                    <td><input type="button" id='b' value="9" onclick="call('9')"/></td>
+                    <td><input type="button" id='l' value="+" onclick="call('+')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button"  id='b' value="." onclick="call('.')"/></td>
+                    <td><input type="button" id='b' value="0" onclick="call('0')"/></td>
+                    <td><input type="button" id='b' value="=" onclick="equal()"/></td>
+                    <td><input type="button" id='l' value="-" onclick="call('-')"/></td>
+                </tr>
+            </table>
+            
+            
+        </fieldset>
+    <script src="calculator.js"> 
+    </script>
+    </body>
+</html>

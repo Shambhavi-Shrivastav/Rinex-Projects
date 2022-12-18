@@ -1,0 +1,55 @@
+body {
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    background-color: white;
+}
+
+.calc {
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    background-color: black;
+}
+
+
+#b,
+#c,
+#i,
+#l {
+    height: 100%;
+    font-size: medium
+}
+
+#b,
+#i {
+    margin-right: 5px;
+
+}
+
+#c {
+    width: 25px;
+}
+
+#i,
+#c {
+    margin-left: 3px;
+
+}
+
+#b,
+#l {
+    width: 25px;
+    height: 30px;
+}
